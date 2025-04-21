@@ -1,0 +1,10 @@
+Resources to be built: 
+- Custom VPC in AWS any region you like. 
+- 2 public subnets and 2 private subnets. 
+- Internet Gateway to be created and attached to the VPC. 
+- Two NAT Gateways to be created, one in each public subnet. 
+- 2 EBS backed EC2 instances (Web_Server1 and Web_Server2). 
+- 2 security groups WebSG and ALBSG. 
+- A target group WebTG. 
+- An application load balancer WebALB.
+
